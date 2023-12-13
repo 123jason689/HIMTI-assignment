@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&display=swap');
+
+:root{
+    --bs-body-bg: #ebc1af;
+}
+
+#mainlogo{
+    padding: 5px;
+    margin-left: 6vw;
+    width: 7vw;
+    height: auto;
+    
+}
+
+nav{
+    background-color: #e3bbaa;
+}
+
+.markbd{
+    border: 3px solid black;
+}
+
+.nav-link{
+    color: azure;
+}
+
+.nav-link:hover, .nav-link:focus{
+    color: rgb(157, 97,106, 1);
+    outline: none;
+}
+
+.elem{
+    margin-right: 6vw;
+}
+
+.hero-paragraph{
+    align-items: end;
+    font-size: 5em;
+    font-weight: 550;
+    letter-spacing: 0.5vw;
+    font-family: 'Nunito Sans', sans-serif;
+    color: azure;
+    padding: 0%;
+}
+
+.mgparagraph{
+    margin-right: 7em;
+    margin-left: 3em;
+    width: fit-content;
+}
+
+.hero-underline{
+    border-bottom: 0.3rem solid azure;
+    margin-bottom: 1.5em;
+    display: inline-block;
+}
+
+.navmg{
+    margin-bottom: 6rem;
+}
+
+.heropic{
+    width: 40rem;
+    margin-top: 2rem;
+}
+
+.supporting{
+    width: 15rem;
+}
+
+.herosection{
+    height: 45em;
+}
+
+.buttonword{
+    color: azure;
+    font-size: 1.5rem;
+}
+
+.hero-button-underline{
+    border-bottom: 0.2rem solid azure;
+    display: inline-block;
+}
+
+#circle-btn1{
+    width: 3em;
+    background-color: rgb(157, 97,106, 1);
+    border-top-left-radius: 100%;
+    border-top-left-radius: 100%;
+}
+
+.buttonshape{
+    background-color: rgb(157, 97,106, 1);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 3rem;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    font-family: 'Nunito Sans', sans-serif;
+    border: none;
+    transition: 0.5s;
+}
+
+.card-body{
+    background-color: azure;
+}
+
+.buttonshape:hover{
+    background-color: rgb(177, 121, 129); 
+    letter-spacing: 5px;
+}
+
+

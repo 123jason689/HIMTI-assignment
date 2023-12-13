@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&display=swap');
+
+.eventsection{
+    background-color: rgb(157, 97,106, 1);
+    height: 190vh;
+}
+
+#eventtitle-div{
+    padding-top: 12vh;
+    margin-bottom: 4rem;
+}
+
+#eventtitle{
+    font-size: 4em;
+    font-family: "Nunito Sans", sans-serif;
+    letter-spacing: 8px;
+    color: azure;
+    text-decoration: underline solid 3px azure;
+    margin: 0%;
+}
+
+#underliner{
+    border-bottom: 1em solid azure;
+}
+
+.cardimg{
+    /* border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem; */
+    object-fit: cover;
+    height: 20rem;
+    width: auto;
+
+}
+
+.card-text{
+    text-align: center;
+    font-size: 0.91em;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.card-body{
+    background-color: #ffff;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.card-title{
+    margin-bottom: 0.7em;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.card{
+    background-color: black;
+    box-shadow: 0em 1em 2em 0em rgba(0, 0, 0, 0.3);
+    /* background-color: cyan; */
+    border-radius: 2rem;
+    width: 27rem;
+    height: 41.9rem;
+    overflow: hidden;
+    margin: 4em;
+    transition: 0.5s;
+}
+
+.card:hover {
+    box-shadow: 0 2em 4em 0.5em rgba(0,0,0,0.4);
+}
+
+.bgblue{
+    background-color: aqua;
+}
+
+#card-text-cont{
+    height: 9.5em;
+}
+
+#cont-encase{
+    display: flex;
+    align-items: center;
+    height: 6em;
+    margin-bottom: 1em;
+}
+
+.regist-button{
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    border: none;
+    border-radius: 3em;
+    text-decoration: underline;
+    letter-spacing: 0.07em;
+    font-size: 1.5em;
+    color: azure;
+    background-color: rgb(157, 97,106, 1);
+    transition: 0.5s;
+}
+
+.regist-button:hover{
+    background-color: rgb(177, 121, 129); 
+    letter-spacing: 0.2em;
+}
+

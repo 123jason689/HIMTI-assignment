@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&display=swap');
+
+.aboutussection{
+    background-image: linear-gradient(rgb(249, 205, 185), rgb(252, 213, 194));
+    height: 170vh;
+}
+
+#underliner-dark{
+    border-bottom: 1em solid rgb(157, 97,106, 1);
+}
+
+#abouttitle{
+    font-size: 4em;
+    font-family: "Nunito Sans", sans-serif;
+    letter-spacing: 8px;
+    color: rgb(157, 97,106, 1);
+    text-decoration: underline solid 3px rgb(157, 97,106, 1);
+    margin: 0%;
+}
+
+#about-text{
+    width: 60rem;
+    font-size: 1.65rem;
+    font-family: "Nunito Sans";
+    color: black;
+    text-decoration: underline solid 1.5px;
+    letter-spacing: 0.05em;
+}
