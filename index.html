@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HIMTI Train</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/about&contact.css">
     <link rel="stylesheet" href="css/event.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -63,7 +63,7 @@
 
     <section class="eventsection">
         <div class="d-flex justify-content-center" id="eventtitle-div">
-            <div id="underliner">
+            <div id="underliner" class="">
                 <h2 class="" id="eventtitle">EVENTS</h2>
             </div>
         </div>
@@ -120,17 +120,49 @@
     </section>
 
     <section class="aboutussection">
-        <div class="d-flex justify-content-center" id="eventtitle-div">
-            <div id="underliner-dark">
-                <h2 class="" id="abouttitle">ABOUT US</h2>
+        <div class="d-flex justify-content-center stdtitle-div" >
+            <div class="underliner-dark">
+                <h2 class="stdtitle">ABOUT US</h2>
             </div>
         </div>
         <div class="d-flex justify-content-center align-items-center">
-            <div>
-                <img src="/img/image 11.png" alt="Logo Binus">
+            <div id="about-logo-cont" class="">
+                <img src="/img/image 11.png" alt="Logo Binus" id="about-logo">
             </div>
-            <div>
-                <p id="about-text">Himpunanan Mahasiswa Teknik Informatika (HIMTI) Universitas Bina Nusantara adalah Organisasi Kemahasiswaan di Universitas Bina Nusantara yang berbentuk Himpunan Mahasiswa Jurusan (HMJ) untuk mahasiswa School of Computer Science (SOCS), BINUS UNIVERSITY.</p>
+            <div class="" id="about-text-cont">
+                <p class="stdtext">Himpunanan Mahasiswa Teknik Informatika (HIMTI) Universitas Bina Nusantara adalah Organisasi Kemahasiswaan di Universitas Bina Nusantara yang berbentuk Himpunan Mahasiswa Jurusan (HMJ) untuk mahasiswa School of Computer Science (SOCS), BINUS UNIVERSITY.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contactsection">
+        <div class="d-flex justify-content-center stdtitle-div">
+            <div class="underliner-dark">
+                <h2 class="stdtitle">CONTACT US</h2>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center flex-column">
+            <h4 class="stdtext subtitle-contact">Let us know anything you want!</h4>
+            <div class="d-flex justify-content-center">
+                <div id="email-bar" class="d-flex justify-content-center align-items-center">
+
+                    <input type="email" class="email-form" placeholder="Enter your email address">
+
+                    <button onclick="" id="submit-button" class="">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div id="more-contact-cont" class="">
+            <div class="d-flex justify-content-evenly align-items-center">
+                <div class="contact-cont">
+                    <p class="stdtext subtitle-contact">CONTACT PERSON</p>
+                </div>
+                <div class="contact-cont">
+                    <p class="stdtext subtitle-contact">HTML CSS</p>
+                </div>
+                <div class="contact-cont">
+                    <p class="stdtext subtitle-contact">HIMTI 2023</p>
+                </div>
             </div>
         </div>
     </section>

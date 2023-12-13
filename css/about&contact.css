@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&display=swap');
+
+.markblue{
+    border: 3px solid blue;
+}
+
+.aboutussection{
+    background-color: rgb(252, 213, 194);
+    height: fit-content;
+}
+
+.underliner-dark{
+    border-bottom: 1em solid rgb(157, 97,106, 1);
+}
+
+.stdtitle{
+    font-size: 4em;
+    font-family: "Nunito Sans", sans-serif;
+    letter-spacing: 8px;
+    color: rgb(157, 97,106, 1);
+    text-decoration: underline solid 3px rgb(157, 97,106, 1);
+    margin: 0%;
+}
+
+.stdtext{
+    width: 55rem;
+    font-size: 1.65rem;
+    font-family: "Nunito Sans";
+    color: black;
+    text-decoration: underline solid black 0.5px;
+}
+
+#about-logo{
+    width: 16rem;
+    height: auto;
+}
+
+.stdtitle-div{
+    padding-top: 12vh;
+    margin-bottom: 2.7rem;
+}
+
+.subtitle-contact{
+    width: auto;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 2em;
+    text-decoration: underline solid black 2px;
+    padding-bottom: 0rem;
+}
+
+#about-logo-cont{
+    width: 25rem;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 6em;
+}
+
+#about-text-cont{
+    margin-left: 6em;
+}
+
+/* Contact css section */
+.contactsection{
+    background-color: rgb(252, 213, 194);
+    height: 150vh;
+}
+
+#email-bar{
+    background-color: azure;
+    border-radius: 5rem;
+    overflow: hidden;
+    width: 65rem;
+    height: 6rem;
+    display: flex;
+}
+
+.email-form{
+    border: none;
+    height: 6rem;
+    flex: 1;
+    padding-left: 2em;
+    font-size: 2em;
+    text-decoration: underline solid black 2px;
+    background-color: azure;
+    outline: none;
+    padding-top: 0%;
+    margin: 0%;
+    transition: 0.7s;
+    flex-shrink: 1;
+}
+
+.email-form::placeholder{
+    color: black;
+}
+
+#submit-button{
+    background-color: rgb(157, 97,106, 1);
+    height: 6rem;
+    width: 13rem;
+    border: none;
+    padding-bottom: 0.205em;
+    margin: 0%;
+    font-size: 2em;
+    color: azure;
+    text-decoration: underline solid azure 2px;
+    transition: 0.7s;
+    flex-shrink: 1;
+}
+
+#submit-button:hover{
+    width: 19rem;
+    border-top-left-radius: 15rem;
+    border-bottom-left-radius: 15rem;
+    background-color: rgb(177, 121, 129);
+    letter-spacing: 0.12em;
+}
+
+#more-contact-cont{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.contact-cont{
+    height: fit-content;
+}
+
+.contact-cont .subtitle-contact{
+    margin-bottom: 0%;
+}
