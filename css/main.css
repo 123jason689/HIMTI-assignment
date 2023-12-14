@@ -33,15 +33,18 @@ nav.sticky img{
 nav ul{
     position: relative;
     transition: 0.3s;
+    user-select: none;
 }
 
 nav ul li{
     position: relative;
     list-style: none;
+    user-select: none;
 }
 
 nav ul li a{
     position: relative;
+    user-select: none;
 }
 
 nav.sticky{
@@ -117,6 +120,7 @@ nav.sticky ul{
 .mgparagraph{
     margin-right: 7em;
     margin-left: 3em;
+    margin-top: 10em;
     width: fit-content;
 }
 

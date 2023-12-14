@@ -1,6 +1,6 @@
-window.onload = function(){
-    document.getElementById("homebar").focus();
-}
+// window.onload = function(){
+//     document.getElementById("homebar").focus();
+// }
 
 window.addEventListener("scroll", function(){
     let navbar = this.document.querySelector("nav");
