@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600;6..12,700;6..12,800&family=Poppins:wght@400;500;700&display=swap');
 
+.bkgrnd-col{
+    background-image: linear-gradient(rgb(248, 204,184, 1), rgba(254, 219,203, 1));
+}
+
 .markblue{
     border: 3px solid blue;
 }
 
 .aboutussection{
-    background-color: rgb(252, 213, 194);
+    /* background-color: rgb(252, 213, 194); */
     height: fit-content;
 }
 
@@ -71,7 +75,8 @@
 
 /* Contact css section */
 .contactsection{
-    background-color: rgb(252, 213, 194);
+    /* background-color: rgb(252, 213, 194); */
+    padding-bottom: 5rem;
     height: auto;
 }
 
@@ -159,7 +164,61 @@
     margin-top: 7px;
 }
 
+
+/* css for footer section */
 .footersection{
-    background-color: rgb(252, 213, 194);
-    height: 150vh;
+    background-color: rgba(249, 205,185, 1);
+    height: fit-content;
+}
+
+#footer-socialmed{
+    width: fit-content;
+}
+
+#himti-logo{
+    margin-right: 1.5rem;
+    width: 13rem;
+    height: auto;
+}
+
+#binus-logo{
+    margin-left: 1.5rem;
+    width: 19rem;
+    height: auto;
+}
+
+.footer-logo-cont{
+    margin-bottom: 3.5rem;
+}
+
+.footer-cont{
+    margin-left: 140px;
+    margin-right: 145px;
+    margin-bottom: 3.5rem;
+    margin-top: 5rem;
+}
+
+#copy-right-text{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.65rem;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+
+.footer-txt{
+    font-size: 1.65rem;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: underline;
+    line-height: 32.74px;
+    color: black;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+}
+
+.footer-sosmed-logo{
+    height:2rem;
 }

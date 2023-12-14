@@ -10,11 +10,77 @@
     margin-left: 6vw;
     width: 7vw;
     height: auto;
-    
+    position: relative;
+    transition: 0.3s;
 }
 
 nav{
     background-color: transparent;
+    padding-top: 2vh;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+nav.sticky img{
+    width: 4vw !important;
+    height: auto;
+}
+
+nav ul{
+    position: relative;
+    transition: 0.3s;
+}
+
+nav ul li{
+    position: relative;
+    list-style: none;
+}
+
+nav ul li a{
+    position: relative;
+}
+
+nav.sticky{
+    padding-top: 0vh;
+    background-color: #ebc1af;
+    box-shadow: 0em 1em 2em 0em rgba(0, 0, 0, 0.3);
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem ;
+}
+
+nav.sticky ul li a.nav-link{
+    font-size: 0.7em !important;
+}
+
+nav.sticky ul{
+    gap: 3rem;
+}
+
+#diamond-cont{
+    animation: hover 1s ease-in 0.2s infinite ease-in;
+    animation-name: hover;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    /* animation-delay: 0.1s; */
+    animation-iteration-count: infinite;
+}
+
+@keyframes hover{
+    0%{
+        margin-bottom: 0;
+    }
+
+    50%{
+        margin-bottom: 5rem;
+    }
+
+    100%{
+        margin-bottom: 0;
+    }
 }
 
 .markbd{
@@ -24,6 +90,9 @@ nav{
 .nav-link{
     color: azure;
     font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    transition: 0.3s;
 }
 
 .nav-link:hover, .nav-link:focus{
@@ -71,7 +140,8 @@ nav{
 }
 
 .herosection{
-    height: 45em;
+    width: 100%;
+    height: 95vh;
 }
 
 .buttonword{
