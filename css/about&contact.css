@@ -41,6 +41,15 @@
     height: auto;
 }
 
+#about-logo-cont{
+    width: 25rem;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 6rem;
+    margin-left: 4rem;
+}
+
 .stdtitle-div{
     padding-top: 12vh;
     margin-bottom: 2.7rem;
@@ -61,12 +70,8 @@
     font-weight: 400;
 }
 
-#about-logo-cont{
-    width: 25rem;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    margin-right: 6em;
+#about-us-txt{
+    width: auto;
 }
 
 #about-text-cont{

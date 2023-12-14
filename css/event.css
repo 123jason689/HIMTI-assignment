@@ -2,7 +2,8 @@
 
 .eventsection{
     background-color: rgb(157, 97,106, 1);
-    height: 190vh;
+    width: 100%;
+    height: fit-content;
 }
 
 #eventtitle-div{
@@ -84,6 +85,10 @@
     align-items: center;
     height: 6em;
     margin-bottom: 1em;
+}
+
+#card-cont{
+    padding-bottom: 1rem;
 }
 
 .regist-button{
