@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600;6..12,700;6..12,800&family=Poppins:wght@400;500&display=swap');
 
 .eventsection{
     background-color: rgb(157, 97,106, 1);
@@ -13,6 +13,7 @@
 #eventtitle{
     font-size: 4em;
     font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
     letter-spacing: 8px;
     color: azure;
     text-decoration: underline solid 3px azure;
@@ -34,9 +35,10 @@
 
 .card-text{
     text-align: center;
-    font-size: 0.91em;
+    font-size: 0.93em;
     text-decoration: underline;
-    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 .card-body{
@@ -47,7 +49,9 @@
 
 .card-title{
     margin-bottom: 0.7em;
-    font-size: 2em;
+    font-size: 1.7em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     text-decoration: underline;
 }
 
@@ -90,6 +94,8 @@
     border: none;
     border-radius: 3em;
     text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     letter-spacing: 0.07em;
     font-size: 1.5em;
     color: azure;

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600;6..12,700;6..12,800&family=Poppins:wght@400;500;700&display=swap');
 
 .markblue{
     border: 3px solid blue;
@@ -16,6 +16,7 @@
 .stdtitle{
     font-size: 4em;
     font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
     letter-spacing: 8px;
     color: rgb(157, 97,106, 1);
     text-decoration: underline solid 3px rgb(157, 97,106, 1);
@@ -25,7 +26,8 @@
 .stdtext{
     width: 55rem;
     font-size: 1.65rem;
-    font-family: "Nunito Sans";
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
     color: black;
     text-decoration: underline solid black 0.5px;
 }
@@ -44,9 +46,15 @@
     width: auto;
     text-align: center;
     font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     margin-bottom: 2em;
     text-decoration: underline solid black 2px;
     padding-bottom: 0rem;
+}
+
+#subtitle-below{
+    font-weight: 400;
 }
 
 #about-logo-cont{
@@ -64,7 +72,7 @@
 /* Contact css section */
 .contactsection{
     background-color: rgb(252, 213, 194);
-    height: 150vh;
+    height: auto;
 }
 
 #email-bar{
@@ -118,10 +126,10 @@
 }
 
 #more-contact-cont{
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     margin-top: 5rem;
-    margin-bottom: 5rem;
+
 }
 
 .contact-cont{
@@ -129,5 +137,29 @@
 }
 
 .contact-cont .subtitle-contact{
+    text-align: start;
+}
+
+.contact-cont .subtitle-contact{
     margin-bottom: 0%;
+}
+
+.line-logo{
+    height: 2.7em;
+}
+
+.contact-tag{
+    font-size: 1.65rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-left: 0.5em;
+}
+
+.cont-box{
+    margin-top: 7px;
+}
+
+.footersection{
+    background-color: rgb(252, 213, 194);
+    height: 150vh;
 }
