@@ -19,6 +19,7 @@
     color: azure;
     text-decoration: underline solid 3px azure;
     margin: 0%;
+    transition: 0.3s;
 }
 
 #underliner{
@@ -111,5 +112,57 @@
 .regist-button:hover{
     background-color: rgb(177, 121, 129); 
     letter-spacing: 0.2em;
+}
+
+@media (max-width:1080px) {
+    #topcards{
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .card{
+        width: 22rem;
+        height: 34.9rem;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .card-title{
+        font-size: 1.3em;
+        margin-bottom: 0.5;
+    }
+
+    .card-text{
+        font-size: 0.8em;
+    }
+    
+    .card-body{
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
+    .cardimg{
+
+        height: 15rem;
+        width: auto;
+    
+    }
+
+    .regist-button{
+        padding-right: 1em;
+        padding-left: 1em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        letter-spacing: 0.05em;
+        font-size: 1.2em;
+    }
+
+    .regist-button:hover{
+        letter-spacing: 0.15em;
+    }
+
+    #eventtitle{
+        font-size: 3em;
+    }
 }
 

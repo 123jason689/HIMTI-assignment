@@ -25,6 +25,7 @@
     color: rgb(157, 97,106, 1);
     text-decoration: underline solid 3px rgb(157, 97,106, 1);
     margin: 0%;
+    transition: 0.3s;
 }
 
 .stdtext{
@@ -39,6 +40,7 @@
 #about-logo{
     width: 16rem;
     height: auto;
+    transition: 0.3s;
 }
 
 #about-logo-cont{
@@ -46,7 +48,7 @@
     display: flex;
     justify-content: end;
     align-items: end;
-    margin-right: 6rem;
+    margin-right: 7rem;
     margin-left: 4rem;
 }
 
@@ -71,11 +73,19 @@
 }
 
 #about-us-txt{
-    width: auto;
+    /* width: auto; */
+    /* margin-bottom: 2em; */
+    width: 60rem;
+    font-size: 1.8rem;
+    margin-left: 3rem;
+    margin-right: 4rem;
+    transition: 0.3s;
 }
 
 #about-text-cont{
     margin-left: 6em;
+    /* margin-right: 5em; */
+    height: fit-content;
 }
 
 /* Contact css section */
@@ -92,6 +102,7 @@
     width: 65rem;
     height: 6rem;
     display: flex;
+    transition: 0.5s;
 }
 
 .email-form{
@@ -105,8 +116,8 @@
     outline: none;
     padding-top: 0%;
     margin: 0%;
-    transition: 0.7s;
     flex-shrink: 1;
+    transition: 0.5s;
 }
 
 .email-form::placeholder{
@@ -123,7 +134,7 @@
     font-size: 2em;
     color: azure;
     text-decoration: underline solid azure 2px;
-    transition: 0.7s;
+    transition: 0.5s;
     flex-shrink: 1;
 }
 
@@ -148,9 +159,6 @@
 
 .contact-cont .subtitle-contact{
     text-align: start;
-}
-
-.contact-cont .subtitle-contact{
     margin-bottom: 0%;
 }
 
@@ -226,4 +234,185 @@
 
 .footer-sosmed-logo{
     height:2rem;
+}
+
+@media (max-width:1320px){
+    #about-us-txt{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:1080px) {
+    #about-us-txt{
+        font-size: 2.2vw;
+        width: 60rem;
+        /* font-size: 1.8rem; */
+        margin-left: 3vw;
+        margin-right: 3vw;
+        transition: 0.3s;
+    }
+
+    #about-logo{
+        width: 18vw ;
+    }
+
+    #about-logo-cont{
+        width: 60vw;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        margin-right: 3vw;
+        margin-left: 5vw;
+    }
+
+    .line-logo{
+        width: 3.5vw;
+        height: fit-content;
+    }
+
+    .subtitle-contact{
+        font-size: 1.2em;
+    }
+
+    .stdtext{
+        font-size: 2vw;
+    }
+
+    .contact-tag{
+        font-size: 2vw;
+    }
+
+    #subtitle-below{
+        font-size: 1.5em;
+    }
+
+    .stdtitle{
+        font-size: 3em;
+        letter-spacing: 6px;
+    }
+
+    #email-bar{
+        width: 100%;
+        margin-left: 4em;
+        margin-right: 4em;
+        height: 4.5rem;
+
+    }
+    
+    .email-form{
+        height: 4.5rem;
+        padding-left: 1.6em;
+        font-size: 2.5vw;
+    }
+    
+    #submit-button{
+        width: 15vw;
+        height: 4.5rem;
+        font-size: 2.5vw;
+    }
+    
+    #submit-button:hover{
+        width: 15rem;
+        letter-spacing: 0.12em;
+    }
+
+    #himti-logo{
+        margin-right: 2vw;
+        width: 15vw;
+        height: auto;
+    }
+
+    #binus-logo{
+        margin-left: 2vw;
+        width: 19vw;
+        height: auto;
+    }
+
+    .footer-cont{
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-bottom: 3.5rem;
+        margin-top: 5rem;
+    }
+
+    .footer-sosmed-logo {
+        width: 3vw;
+        height: auto;
+    }
+
+    .footer-txt{
+        font-size: 2vw;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: 1em;
+    }
+
+    #copy-right-text{
+        font-size: 2vw;
+    }
+}
+
+@media (max-width:640px) {
+    #about-us-txt{
+        font-size: 3vw;
+        width: 60rem;
+        /* font-size: 1.8rem; */
+        margin-left: 3vw;
+        margin-right: 4vw;
+        transition: 0.3s;
+    }
+
+    #email-bar{
+        width: 100%;
+        margin-left: 4em;
+        margin-right: 4em;
+        height: 8vw;
+    }
+
+    .email-form{
+        height: 8vw;
+        padding-left: 1.6em;
+        font-size: 2.5vw;
+    }
+    
+    #submit-button{
+        width: 15vw;
+        height: 8vw;
+        font-size: 2.5vw;
+    }
+
+    #submit-button:hover{
+        width: 20vw;
+        letter-spacing: 0.12em;
+    }
+
+    #more-contact-cont{
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    .contact-tag{
+        font-size: 2.4vw;
+    }
+
+    #copy-right-text{
+        font-size: 2.5vw;
+    }
+
+    .footer-txt{
+        font-size: 2.4vw;
+    }
+
+    .stdtitle{
+        font-size: 2.5em;
+        letter-spacing: 4px;
+    }
+
+    .stdtext{
+        font-size: 2.3vw;
+    }
+
+    #subtitle-below{
+        font-size: 1em;
+    }
 }
