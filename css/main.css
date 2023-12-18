@@ -146,14 +146,11 @@ nav.sticky ul{
 }
 
 .heropic{
-    /* width: 40rem; */
     width: 120%;
     transition: 0.6s;
-    /* margin-top: 2rem; */
 }
 
 .crop{
-    /* width: 40rem; */
     width: fit-content;
 }
 
@@ -228,9 +225,6 @@ nav.sticky ul{
 
     .mgparagraph{
         z-index: 10;
-        /* align-items: center !important; */
-        /* background-color: rgba(249, 205,185, 0.8); */
-        /* position: absolute; */
     }
 
     .mgparagraph .hero-underline .hero-paragraph{
@@ -244,19 +238,14 @@ nav.sticky ul{
 
 @media (max-width:1150px) {
     .mghero{
-        /* background-color: blue; */
         position: relative;
-
     }
 
     .mgparagraph .hero-underline .hero-paragraph{
         font-size: 300%;
     }
     
-
-
     .herosection{
-        /* justify-content: center !important; */
         align-items: end;
     }
 
@@ -306,9 +295,7 @@ nav.sticky ul{
     nav.sticky ul li.marg{
         margin-left: 0vw !important;
         margin-right: 0vw !important;
-
     }
-
 
     nav.sticky ul li a.nav-link{
         /* transition: 0.1s; */
