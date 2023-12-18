@@ -364,21 +364,21 @@
 
     #email-bar{
         width: 100%;
-        margin-left: 4em;
-        margin-right: 4em;
+        margin-left: 3em;
+        margin-right: 3em;
         height: 8vw;
     }
 
     .email-form{
         height: 8vw;
         padding-left: 1.6em;
-        font-size: 2.5vw;
+        font-size: 2.8vw;
     }
     
     #submit-button{
         width: 15vw;
         height: 8vw;
-        font-size: 2.5vw;
+        font-size: 2.8vw;
     }
 
     #submit-button:hover{
@@ -396,12 +396,24 @@
     }
 
     #copy-right-text{
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
 
     .footer-txt{
-        font-size: 2.4vw;
+        font-size: 3vw;
     }
+
+    #youtube-cont{
+        height: 5vw;
+    }
+    #instagram-cont{
+        height: 5vw;
+    }
+    #tiktok-cont{
+        height: 5vw;
+    }
+
+
 
     .stdtitle{
         font-size: 2.5em;

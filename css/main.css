@@ -27,6 +27,7 @@ nav{
 
 nav.sticky img{
     width: 4vw !important;
+    transition: 0.3;
     height: auto;
 }
 
@@ -40,6 +41,7 @@ nav ul li{
     position: relative;
     list-style: none;
     user-select: none;
+    transition: 0.3;
 }
 
 nav ul li a{
@@ -208,12 +210,6 @@ nav.sticky ul{
 }
 
 @media (max-width:1320px){
-
-    /* .herosection{
-        justify-content: center !important;
-        align-items: end;
-    } */
-
     .hero-paragraph{
         font-size: 3em;
     }
@@ -285,12 +281,10 @@ nav.sticky ul{
 
 @media (max-width:890px) {
     nav ul li a.nav-link{
-        /* transition: 0.1s; */
         font-size: 0.7em;
     }
 
     nav.sticky ul li a.nav-link{
-        /* transition: 0.1s; */
         font-size: 0.5em !important;
     }
 
@@ -301,26 +295,48 @@ nav.sticky ul{
 
 @media (max-width:640px) {
     nav ul li a.nav-link{
-        /* transition: 0.1s; */
-        font-size: 0.5em;
-        /* margin: vw; */
-        /* padding: 0vw; */
+        font-size: 0.52em;
+    }
+    
+    nav ul li.marg{
+        margin-left: 0.1vw !important;
+        margin-right: 0.1vw !important;
     }
 
     nav.sticky ul li.marg{
-        margin-left: 0.1vw !important;
-        margin-right: 0.1vw !important;
+        margin-left: 0vw !important;
+        margin-right: 0vw !important;
+
     }
 
-    .marg{
-        margin-left: 0.1vw !important;
-        margin-right: 0.1vw !important;
-    }
 
     nav.sticky ul li a.nav-link{
         /* transition: 0.1s; */
-        font-size: 0.3em !important;
+        font-size: 0.4em !important;
+    }
+
+    nav ul{
+        width: 78vw;
+        display: flex;
+        justify-content: space-between;
+        gap: 0vw;
+    }
+
+    nav.sticky ul{
+        width: 78vw;
+        display: flex;
+        justify-content: space-between;
+        gap: 0vw;
+    }
+
+    nav.sticky img{
+        padding: 0% !important;
+        margin-right: 0vw !important;
     }
 }
 
-
+@media (max-width:375px){
+    nav ul li a.nav-link{
+        font-size: 0.4em;
+    }
+}
